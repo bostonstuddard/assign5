@@ -27,7 +27,7 @@ public class QuickSort {
 		//*  Class Wrapper for the recursive quickSort *
 		//**********************************************
 		quickSort(array,0,array.length-1);
-		showArray(array);
+		//showArray(array);
 	}
 	
 	public static void quickSort(int[] array, int left, int right) {
