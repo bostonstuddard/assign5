@@ -4,8 +4,9 @@ public class QuickSort {
 
 	public static void main(String[] args) {
 		int[] array = {3,1,8,7,6,2,4,9,5};
-		quickSort(array);
 		showArray(array);
+		quickSort(array);
+		
 		
 	}
 	
@@ -27,13 +28,13 @@ public class QuickSort {
 		//*  Class Wrapper for the recursive quickSort *
 		//**********************************************
 		quickSort(array,0,array.length-1);
-		//showArray(array);
+        showArray(array);
 	}
 	
 	public static void quickSort(int[] array, int left, int right) {
 
 		if(left >= right){
-			showArray(array);
+			//showArray(array);
 			return;
 		}
 
