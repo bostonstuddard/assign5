@@ -27,10 +27,22 @@ public class QuickSort {
 		//*  Class Wrapper for the recursive quickSort *
 		//**********************************************
 		quickSort(array,0,array.length-1);
+		showArray(array);
 	}
 	
 	public static void quickSort(int[] array, int left, int right) {
-		
+
+		if(left >= right){
+			showArray(array);
+			return;
+		}
+
+		int i = left;
+		int j = right;
+		int pivot = array[(left + right) / 2];
+
+		while(i <= j){
+		}
 		
 	}
 	
