@@ -4,7 +4,7 @@ public class QuickSort {
 
 	public static void main(String[] args) {
 		int[] array = {3,1,8,7,6,2,4,9,5};
-		
+		quickSort(array);
 		showArray(array);
 		
 	}
